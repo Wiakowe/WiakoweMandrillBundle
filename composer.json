@@ -9,7 +9,7 @@
         { "name": "Aitor Suso", "email": "patxi1980@gmail.com" }
     ],
     "autoload": {
-        "psr-0": { "Wiakowe/MandrillBundle": "" }
+        "psr-0": { "Wiakowe\\MandrillBundle": "" }
     },
     "target-dir": "Wiakowe/MandrillBundle",
     "require": {
