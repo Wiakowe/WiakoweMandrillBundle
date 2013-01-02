@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="wiakowe_mandrill.client.class">Mandrill</parameter>
+        <parameter key="wiakowe_mandrill.api_key" />
+    </parameters>
+
+    <services>
+        <service id="wiakowe_mandrill.client" class="%wiakowe_mandrill.client.class%">
+            <argument>%wiakowe_mandrill.api_key%</argument>
+        </service>
+    </services>
+</container>
